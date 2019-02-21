@@ -50,7 +50,8 @@ class log_gaussian:
 
     def __call__(self, x, u, var):
 
-        logli = -0.5*(var.mul(2*np.pi)+1e-5).log() - \ (x-u).pow(2).div(var.mul(2.0)+1e-8)
+        logli = -0.5*(var.mul(2*np.pi)+1e-5).log() - \ 
+                (x-u).pow(2).div(var.mul(2.0)+1e-8)
                 
 
         return logli.sum(1).mean().mul(-1)
