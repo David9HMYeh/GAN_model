@@ -10,7 +10,7 @@ The loss function is combine reconstruction error, generater error, and discrimi
 D learning rate has to be higher than G for better result. With small learning rate, G is able to generate realistic image<br>
 
 ProductionLine_imgae_detection.ipynb <br>
-Show the result and accuracy of trained model applied on real manufatureing image and able to identified anomaly image using cross entorpy with accuracy 96%.<br>
+Show the application and result of trained model applied on real manufatureing image and able to identified anomaly image using cross entorpy with accuracy 96%.<br>
 
 model_result.png <br>
 Show the sample image from generated model compare with real image.
